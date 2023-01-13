@@ -1,0 +1,63 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(216, 215, 215);
+  display: flex;
+  justify-content: center;
+  font-family: 'Rowdies', cursive;
+}
+
+.text {
+  color:rgb(233, 60, 60);
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  text-align: center;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  gap:30px;
+}
+
+.center{
+  display:flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border: 6px solid;
+  border-radius: 128px;
+  border-color: gray;
+}
+
+.cover {
+  width: 900px;
+  height: 252px;
+  background-image: url('yosemite.jpeg');
+  background-repeat: no-repeat;
+}
+
+.half{
+  width: 45%
+}
